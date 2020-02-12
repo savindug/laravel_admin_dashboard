@@ -16,7 +16,7 @@
 
                 </ul>
 
-
+                <br><br>
 
                 <div class="panel-body">
                     <div id="div1" style="display:block">
@@ -47,7 +47,7 @@
                         @endif
                     </div>
 
-                    <div id="div2" style="display:none">
+                    <div id="div2" style="display:block">
                         <a href="/posts/create" class="btn btn-primary">Create Event</a>
                         <h3>Your Events</h3>
                         @if(count($posts) > 0)
